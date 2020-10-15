@@ -1,4 +1,4 @@
-# Data-Structures-And-Algorithms
+# Data-Structures-Algorithms-And-DBMS
 
 ## Data Structures
 ### Linked List
@@ -17,3 +17,10 @@ We begin by choosing an option and backtrack from it, if we reach a state where 
 We repeat these steps by going across each available option until we get the desired solution.
 #### Blog :[Link](https://www.corevaluetech.com/blog/backtracking-algorithms)
 #### YouTube:[Link](https://www.youtube.com/watch?v=nNaeYANiWUA&t=1255s)
+
+
+## DBMS
+### 1. Concurrency in Transaction
+Concurrency means allowing more than one transaction to operate simultaneously on a same database.
+#### Blog :[Link](https://www.corevaluetech.com/blog/concurrency-transaction)
+#### YouTube:[Link](https://www.youtube.com/watch?v=AUhsjFqKwpM&t=1054s)

@@ -5,15 +5,15 @@ import java.util.*;
 public class KahnAlgorithm {
 
     public  static  int n,e;
-    public static List<Integer> adjacencList[];
+    public static List<Integer> adjacencyList[];
 
     public static void input(){
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter the number of vertices");
         n=scan.nextInt();
-        adjacencList = new ArrayList[n];
+        adjacencyList = new ArrayList[n];
         for(int i=0;i<n;i++){
-            adjacencList[i]=new ArrayList<>();
+            adjacencyList[i]=new ArrayList<>();
         }
         System.out.println("Enter no of edges");
         e=scan.nextInt();
@@ -26,7 +26,7 @@ public class KahnAlgorithm {
 
     }
     public static void edge(int src,int dest){
-        adjacencList[src].add(dest);
+        adjacencyList[src].add(dest);
     }
 
     public static void topologicalSort(){
@@ -34,7 +34,7 @@ public class KahnAlgorithm {
         int count=0;//processed nodes
         List<Integer> result=new ArrayList<>();
         for (int i=0;i<n;i++){
-            for (int vertex:adjacencList[i]) {
+            for (int vertex:adjacencyList[i]) {
                 incomingDegree[vertex]++;
             }
 
@@ -50,8 +50,8 @@ public class KahnAlgorithm {
         while (!queue.isEmpty()){
             int front=queue.poll();
             result.add(front);
-            for (int i = 0; i< adjacencList[front].size(); i++){
-                int vertex= adjacencList[front].get(i);
+            for (int i = 0; i< adjacencyList[front].size(); i++){
+                int vertex= adjacencyList[front].get(i);
                 incomingDegree[vertex]--;
                 if (incomingDegree[vertex]==0){
                     queue.add(vertex);

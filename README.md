@@ -12,7 +12,7 @@ We have a double linked list where each node consists of three pointers data, ra
 #### 1.Topological Sort
 ![alt tag](https://miro.medium.com/max/576/1*4AoY4cTRSTMYF_97nujNqA.png)
 ##### Blog : [Link](https://nandita-hans.medium.com/topological-sort-b98da2585018),[Link](https://nandita-hans.medium.com/kahns-algorithm-for-topological-sort-f5b1a51d698d)
-##### Code: [Link](https://github.com/nanditahans/Data-Structures-And-Algorithms.git)
+##### Code: [Link](https://github.com/nanditahans/Data-Structures-Algorithms-And-DBMS/tree/master/src/TopologicalSort)
   
  
 

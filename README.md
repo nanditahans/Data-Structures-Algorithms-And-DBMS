@@ -30,3 +30,10 @@ We repeat these steps by going across each available option until we get the des
 Concurrency means allowing more than one transaction to operate simultaneously on a same database.
 #### Blog :[Link](https://www.corevaluetech.com/blog/concurrency-transaction)
 #### YouTube:[Link](https://www.youtube.com/watch?v=AUhsjFqKwpM&t=1054s)
+
+
+## OS
+### 1. Java Memory Management
+Concurrency means allowing more than one transaction to operate simultaneously on a same database.
+#### Blog :[Link](https://www.corevaluetech.com/blog/java-memory-management)
+#### YouTube:[Link](https://www.youtube.com/watch?v=CqB6Xx729YE&t=956s)

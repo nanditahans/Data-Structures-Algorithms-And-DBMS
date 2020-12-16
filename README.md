@@ -34,6 +34,6 @@ Concurrency means allowing more than one transaction to operate simultaneously o
 
 ## OS
 ### 1. Java Memory Management
-Concurrency means allowing more than one transaction to operate simultaneously on a same database.
+In Java, memory management is the process of allocation and de-allocation of objects, called Memory management. Java does memory management automatically. Java uses an automatic memory management system called a garbage collector.
 #### Blog :[Link](https://www.corevaluetech.com/blog/java-memory-management)
 #### YouTube:[Link](https://www.youtube.com/watch?v=CqB6Xx729YE&t=956s)
